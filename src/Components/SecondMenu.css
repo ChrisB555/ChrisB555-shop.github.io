@@ -1,0 +1,22 @@
+.second-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(235, 232, 232);
+  height: 100px;
+  padding: 20px;
+}
+@media (max-width: 1024px) {
+  .second-menu {
+    margin-top: 50px;
+  }
+  .dropdown-second {
+    font-size: 14px !important;
+    padding: 0;
+  }
+  .menu-second {
+    font-size: 13px !important;
+    width: 100px !important;
+    padding: 5px !important;
+  }
+}
